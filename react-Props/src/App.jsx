@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
 
-import StateExp from "./StateExample.jsx";
+import Parent from './PropParent.jsx';
+import ChildOne from './PropChild.jsx';
 
 
 class App extends Component {
   render() {
     return (
         <div>
-          <StateExp/>
+          <Parent/>
         </div>
     );
   }
